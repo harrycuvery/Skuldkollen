@@ -1,0 +1,13 @@
+SKULDKOLLEN – INSTALLATION PÅ IPHONE
+
+Detta är en PWA som kan läggas på hemskärmen och fungera offline.
+Första gången måste filerna publiceras på en HTTPS-adress (t.ex. GitHub Pages). ZIP-filen kan inte installeras direkt som app.
+
+1. Skapa ett GitHub-repository och ladda upp alla filer i denna mapp.
+2. I repositoryt: Settings > Pages > Deploy from a branch > main > /(root) > Save.
+3. Öppna HTTPS-adressen som GitHub Pages visar i Safari på iPhone.
+4. Tryck Dela > Lägg till på hemskärmen > Lägg till.
+5. Starta Skuldkollen från hemskärmen medan du har internet en gång. Därefter cachas appfilerna för offlinebruk.
+
+Appen lagrar betalningsdata lokalt på telefonen. Spara säkerhetskopior i appens Inställningar.
+Standardperiod: november 2026–april 2027, 100 kr/månad/person. Det är 6 betalningar, 600 kr per person och 16 800 kr för 28 personer.
