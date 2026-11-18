@@ -1,13 +1,17 @@
-SKULDKOLLEN – INSTALLATION PÅ IPHONE
+SKULDKOLLEN – UPPDATERING OCH INSTALLATION PÅ IPHONE
 
-Detta är en PWA som kan läggas på hemskärmen och fungera offline.
-Första gången måste filerna publiceras på en HTTPS-adress (t.ex. GitHub Pages). ZIP-filen kan inte installeras direkt som app.
+Den här versionen innehåller knappen + Lägg till person och Ta bort. Befintliga namn och betalningar sparas när du ersätter filerna på samma GitHub Pages-adress och i samma webbläsare/enhet.
 
-1. Skapa ett GitHub-repository och ladda upp alla filer i denna mapp.
-2. I repositoryt: Settings > Pages > Deploy from a branch > main > /(root) > Save.
-3. Öppna HTTPS-adressen som GitHub Pages visar i Safari på iPhone.
-4. Tryck Dela > Lägg till på hemskärmen > Lägg till.
-5. Starta Skuldkollen från hemskärmen medan du har internet en gång. Därefter cachas appfilerna för offlinebruk.
+UPPDATERA GITHUB:
+1. Packa upp ZIP-filen i appen Filer på iPhone.
+2. Öppna GitHub-repositoryt Skuldkollen och gå till huvudmappen (main / root).
+3. Ta bort den gamla ZIP-filen om du vill – den används inte av Pages.
+4. Välj Add file > Upload files och ladda upp filerna från den uppackade mappen direkt i repositoryts rot. Om GitHub frågar om att ersätta filer, välj att ersätta.
+5. Commit changes.
+6. Vänta tills GitHub Pages publicerat ändringarna. Stäng sedan Skuldkollen helt och öppna webbplatsen igen i Safari. Om hemskärmsappen visar gammal version, öppna webbplatsen i Safari först och ladda om.
 
-Appen lagrar betalningsdata lokalt på telefonen. Spara säkerhetskopior i appens Inställningar.
-Standardperiod: november 2026–april 2027, 100 kr/månad/person. Det är 6 betalningar, 600 kr per person och 16 800 kr för 28 personer.
+VIKTIGT OM DATA:
+Betalningshistorik sparas lokalt i webbläsarens lagring. Radera inte webbplatsdata och använd samma webbadress/enhet. Ta gärna en säkerhetskopia via Inställningar > Spara kopia innan uppdatering.
+
+INSTALLERA SOM APP:
+Öppna HTTPS-adressen i Safari > Dela > Lägg till på hemskärmen.
